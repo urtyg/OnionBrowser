@@ -1,5 +1,11 @@
 #  Onion Browser Changelog
 
+## 3.4.1
+- Fixed IP leaks during DNS prefetch found by Mysk: https://mysk.blog/2026/08/04/webkit-proxy-icloud-private-relay-ip-leak/
+  (The other leaks are mitigated by Lockdown Mode in Onion Browser, included in Silver and Gold security levels.)
+- Updated libevent to 2.1.13.
+- Updated Japanese and Pashto translations.
+
 ## 3.4.0
 - Updated Tor to 0.4.9.11.
 - Updated Snowflake to 2.14.1.

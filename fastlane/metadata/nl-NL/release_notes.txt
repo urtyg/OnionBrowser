@@ -1,8 +1,3 @@
-- Tor bijgewerkt naar 0.4.9.11.
-- Snowflake bijgewerkt naar 2.14.1.
-- DNSTT bijgewerkt naar 1.20260501.0.
-- Beveiligingsfix: de beveiliging van linkvoorbeelden is aangepast naar hetzelfde niveau als bij normale tabbladen.
-- De achtergrond van de titel bij linkvoorbeelden in iOS 26 is gecorrigeerd.
-- Linkvoorbeelden zijn nu optioneel.
-- De vertalingen voor het Koreaans, Japans en Vereenvoudigd Chinees zijn bijgewerkt.
-- De verouderde standaardbladwijzer voor de NYT is verwijderd. De Onion-service is stopgezet.
+- IP-lekken tijdens DNS-prefetch, ontdekt door Mysk, zijn verholpen.
+- libevent is bijgewerkt naar versie 2.1.13.
+- De vertalingen in het Japans en het Pashto zijn bijgewerkt.

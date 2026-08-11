@@ -1,8 +1,3 @@
-- Ažuriran Tor na verziju 0.4.9.11.
-- Ažuriran Snowflake na verziju 2.14.1.
-- Ažuriran DNSTT na verziju 1.20260501.0.
-- Sigurnosna ispravka: Povećana je sigurnost pretpregleda poveznica na razinu normalnih kartica.
-- Ispravljen je pozadinski sloj naslova pretpregleda poveznica na iOS-u 26.
-- Pretpregled poveznica sada je neobavezan.
-- Ažurirani su prijevodi na korejski, japanski i kineski (pojednostavljeni).
-- Uklonjena je zastarjela zadana oznaka NYT-a. Usluga Onion je ukinuta.
+- Popravljeno curenje IP adresa tijekom DNS prefetcha koje je otkrio Mysk.
+- Ažurirana libevent na verziju 2.1.13.
+- Ažurirani japanski i paštunski prijevodi.

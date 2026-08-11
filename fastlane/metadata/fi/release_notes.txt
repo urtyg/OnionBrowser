@@ -1,8 +1,3 @@
-- Tor päivitetty versioon 0.4.9.11.
-- Snowflake päivitetty versioon 2.14.1.
-- DNSTT päivitetty versioon 1.20260501.0.
-- Turvallisuuskorjaus: Linkkien esikatselun turvallisuustaso nostettiin vastaamaan tavallisten välilehtien tasoa.
-- Korjattiin linkkien esikatselun otsikon tausta iOS 26:ssa.
-- Tehtiin linkkien esikatselusta valinnainen.
-- Päivitettiin korean-, japanin- ja yksinkertaistetun kiinan kielen käännökset.
-- Poistettiin vanhentunut NYT:n oletuskirjanmerkki. Onion-palvelu lopetettiin.
+- Korjattiin Myskin havaitsemat IP-osoitteiden vuotamiset DNS-ennakkolatausvaiheessa.
+- Päivitettiin libevent-kirjasto versioon 2.1.13.
+- Päivitettiin japanin- ja pashtokieliset käännökset.
