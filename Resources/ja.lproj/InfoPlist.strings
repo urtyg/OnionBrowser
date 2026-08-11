@@ -7,9 +7,9 @@
 //
 //  This file is part of Onion Browser. See LICENSE file for redistribution terms.
 //
-NSPhotoLibraryAddUsageDescription = "写真を保存する必要があります。";
-NSCameraUsageDescription = "QRコードでブリッジアドレスを読む必要があります。";
-NSFaceIDUsageDescription = "Face IDでロックを解除するには必要です。";
+NSPhotoLibraryAddUsageDescription = "選択した画像を「写真」に保存するために必要です。";
+NSCameraUsageDescription = "表示された QR コードからブリッジアドレスを読み取るために必要です。";
+NSFaceIDUsageDescription = "Face ID でアプリのロックを解除する場合には必要です。";
 "New Tab" = "新規タブ";
-"Clear Data" = "データの削除";
-"Close tabs and clear data" = "タブを閉じ、データを削除する";
+"Clear Data" = "データを消去";
+"Close tabs and clear data" = "タブを閉じてデータを消去する";
