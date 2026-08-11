@@ -1,0 +1,9 @@
+[{
+	"trigger": {
+		"url-filter": ".*",
+		"resource-type": ["ping"]
+	},
+	"action": {
+		"type": "block"
+	}
+}]
