@@ -68,6 +68,9 @@
 		A04F5DEF2D50FF7D00966D68 /* UrlBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1FB112D50FC5200AE97A7 /* UrlBlocker.swift */; };
 		A04F5DF02D50FFAC00966D68 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BF524023AFC3580096624A /* URL+Helpers.swift */; };
 		A0550649271094A900922E18 /* ua-strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0550648271094A900922E18 /* ua-strings.plist */; };
+		A05AD93B302B45EF000B3EF5 /* content-rules.json in Resources */ = {isa = PBXBuildFile; fileRef = A05AD93A302B45E6000B3EF5 /* content-rules.json */; };
+		A05AD93D302B46D3000B3EF5 /* ContentRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AD93C302B46D3000B3EF5 /* ContentRules.swift */; };
+		A05AD93E302B46D3000B3EF5 /* ContentRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05AD93C302B46D3000B3EF5 /* ContentRules.swift */; };
 		A068DD99240D348300BF46E3 /* AltSvcHeader_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A068DD98240D348300BF46E3 /* AltSvcHeader_Tests.swift */; };
 		A068DD9A240D37FB00BF46E3 /* HostSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BF522B23AFC3580096624A /* HostSettings.swift */; };
 		A0696EAD2406C7D000512695 /* SyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0696EAC2406C7D000512695 /* SyncViewController.swift */; };
@@ -286,6 +289,8 @@
 		A043B9542A029FC3008025A7 /* StartOrbotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartOrbotViewController.xib; sourceTree = "<group>"; };
 		A043B9552A029FC3008025A7 /* StartOrbotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartOrbotViewController.swift; sourceTree = "<group>"; };
 		A0550648271094A900922E18 /* ua-strings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ua-strings.plist"; sourceTree = "<group>"; };
+		A05AD93A302B45E6000B3EF5 /* content-rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "content-rules.json"; sourceTree = "<group>"; };
+		A05AD93C302B46D3000B3EF5 /* ContentRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentRules.swift; sourceTree = "<group>"; };
 		A06881D02A66ADF60084D26D /* release.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = release.entitlements; sourceTree = "<group>"; };
 		A06881D12A66B0070084D26D /* debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = debug.entitlements; sourceTree = "<group>"; };
 		A068DD98240D348300BF46E3 /* AltSvcHeader_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltSvcHeader_Tests.swift; sourceTree = "<group>"; };
@@ -687,6 +692,7 @@
 				A0BF51D123AFBF250096624A /* SearchEngines.plist */,
 				A0550648271094A900922E18 /* ua-strings.plist */,
 				A01A1D342F47563000D4591D /* security-levels.html */,
+				A05AD93A302B45E6000B3EF5 /* content-rules.json */,
 				A0BF51DE23AFBF250096624A /* credits.html */,
 				A0BF51C523AFBF250096624A /* credits.html.in */,
 				A0BF51C723AFBF250096624A /* start.html */,
@@ -836,6 +842,7 @@
 			children = (
 				A0C1FB102D50FC5200AE97A7 /* BlocklistViewController.swift */,
 				A00748252E2951EE0083E115 /* BlocklistViewController.xib */,
+				A05AD93C302B46D3000B3EF5 /* ContentRules.swift */,
 				A0C1FB112D50FC5200AE97A7 /* UrlBlocker.swift */,
 			);
 			path = Blocking;
@@ -1017,6 +1024,7 @@
 				A0BF524923AFC3580096624A /* CircuitNodeCell.xib in Resources */,
 				A043B9522A02897A008025A7 /* PermissionViewController.xib in Resources */,
 				A02A09142AD6E8C000A9334C /* StartTorViewController.xib in Resources */,
+				A05AD93B302B45EF000B3EF5 /* content-rules.json in Resources */,
 				A0BF526323AFC3580096624A /* BookmarksViewController.xib in Resources */,
 				A0BF51ED23AFBF250096624A /* start.html in Resources */,
 			);
@@ -1218,6 +1226,7 @@
 				A0BF525D23AFC3580096624A /* LiveSearchViewController.swift in Sources */,
 				A02414382A0260B1009AEE25 /* WhyViewController.swift in Sources */,
 				A0BF526C23AFC3580096624A /* CustomSitesViewController.swift in Sources */,
+				A05AD93E302B46D3000B3EF5 /* ContentRules.swift in Sources */,
 				A0BF527C23AFC3580096624A /* UIView+Helpers.swift in Sources */,
 				A036C3B22937A06C0035AA4F /* AddSearchEngineViewController.swift in Sources */,
 				54F7DBC8281C189700CBEFDB /* CALayer+Helpers.swift in Sources */,
@@ -1313,6 +1322,7 @@
 				A068DD99240D348300BF46E3 /* AltSvcHeader_Tests.swift in Sources */,
 				A08737E1221324B5005A68CC /* HostSettings_Tests.m in Sources */,
 				A0F8BE8627C50586002D2999 /* AltSvcHeader.swift in Sources */,
+				A05AD93D302B46D3000B3EF5 /* ContentRules.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

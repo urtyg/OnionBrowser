@@ -171,6 +171,10 @@ class Tab: UIView {
 			// injecting this a second time crashes the app.
 			setupJsInjections(conf)
 
+			if let ruleList = ContentRules.shared.ruleList {
+				conf.userContentController.add(ruleList)
+			}
+
 			_conf = conf
 			return conf
 		}

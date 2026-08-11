@@ -71,6 +71,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 		Settings.stateLocation = FileManager.default.ptDir!
 
+		_ = ContentRules.shared // Init as early as possible, since init is async!
+
 		return true
 	}
 
