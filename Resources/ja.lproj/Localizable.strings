@@ -122,7 +122,7 @@
 "Allow JavaScript" = "JavaScript を許可する";
 
 /* Option title */
-"Allow Link Preview" = "Allow Link Preview";
+"Allow Link Preview" = "リンクプレビューを許可する";
 
 /* SecurityViewController */
 "Allow Persistent Cookies" = "永続的な Cookie を許可する";
@@ -326,7 +326,7 @@
 "Go Forward" = "進む";
 
 /* Placeholder is 'Orbot' */
-"Go to %@" = "%@を入手";
+"Go to %@" = "%@ を開く";
 
 /* SecurityPresetsRow; a security level */
 "Gold" = "ゴールド";
@@ -335,10 +335,10 @@
 "Guard" = "ガード";
 
 /* SecurityViewController */
-"Handle tapping on links in a non-standard way to avoid possibly opening external applications." = "外部アプリケーションを開かないようにするために、リンクのタップを標準以外の方法で処理します";
+"Handle tapping on links in a non-standard way to avoid possibly opening external applications." = "外部のアプリケーションを誤って開かないように、リンクのタップを通常とは異なる方法で処理します。";
 
 /* SettingsViewController */
-"Hide App Content when in Background" = "バックグラウンド時は内容を隠す";
+"Hide App Content when in Background" = "バックグラウンドではアプリのコンテンツを非表示にする";
 
 /* HistoryViewController */
 "History" = "履歴";
@@ -350,46 +350,46 @@
 "If you sync, all bookmarks will be read from the server and added/updated in %@." = "同期すると、すべてのブックマークがサーバーから読み込まれ、%@ に追加または更新されます。";
 
 /* Tab+UIWebViewDelegate */
-"Ignore for this host" = "このホストを無視";
+"Ignore for this host" = "このホストでは無視する";
 
 /* SecurityViewController */
-"Ignore TLS Errors" = "TLSエラーを無視";
+"Ignore TLS Errors" = "TLS エラーを無視する";
 
 /* BookmarksViewController */
-"Import Bookmarks" = "Import Bookmarks";
+"Import Bookmarks" = "ブックマークをインポート";
 
 /* No comment provided by engineer. */
-"IndexedDB Databases" = "IndexedDBデータベース";
+"IndexedDB Databases" = "IndexedDB データベース";
 
 /* Placeholder is 'Orbot' */
-"Install %@" = "%@をインストール";
+"Install %@" = "%@ のインストール";
 
 /* CertificateViewController */
-"Issued By" = "証明書発行局";
+"Issued By" = "発行者";
 
 /* CertificateViewController */
-"Issued To" = "証明書発行先";
+"Issued To" = "発行先";
 
 /* SecurityPopUpViewController */
-"Learn More" = "さらに詳しく";
+"Learn More" = "詳細情報";
 
 /* Bookmark, placeholder is app name "Onion Browser" */
-"Learn more about %@" = "%@ の詳しい情報";
+"Learn more about %@" = "%@ について";
 
 /* DonationViewController */
 "Loading in-app purchase data…" = "アプリ内購入データを読み込んでいます…";
 
 /* Storage2ViewController */
-"Local Storage" = "ローカル・ストレージ";
+"Local Storage" = "ローカルストレージ";
 
 /* SettingsViewController */
-"Lock App with Device Passcode" = "端末のパスワードでロック";
+"Lock App with Device Passcode" = "端末のパスコードでアプリをロック";
 
 /* SettingsViewController */
-"Lock App with Face ID or Device Passcode" = "端末のパスワードかFaceIDでロック";
+"Lock App with Face ID or Device Passcode" = "Face ID か端末のパスコードでアプリをロック";
 
 /* SettingsViewController */
-"Lock App with Touch ID or Device Passcode" = "端末のパスワードかTouchIDでロック";
+"Lock App with Touch ID or Device Passcode" = "Touch ID か端末のパスコードでアプリをロック";
 
 /* Option title */
 "Lockdown Mode" = "ロックダウンモード";
@@ -398,7 +398,7 @@
 "Log In" = "ログイン";
 
 /* No comment provided by engineer. */
-"Memory Cache" = "メモリキャッシュ";
+"Memory Cache" = "メモリーキャッシュ";
 
 /* SettingsViewController */
 "Miscellaneous" = "その他";
@@ -407,7 +407,7 @@
 "Mute Audio with Mute Switch" = "ミュートスイッチで消音";
 
 /* AddSearchEngineViewController */
-"My Search Engine" = "検索エンジンリスト";
+"My Search Engine" = "検索エンジン";
 
 /* AddSearchEngineViewController */
 "Name" = "名前";
@@ -416,19 +416,19 @@
 "New Circuit for this Site" = "このサイト用の回線を再構築";
 
 /* No comment provided by engineer. */
-"New Security Features" = "新セキュリティ機能";
+"New Security Features" = "新しいセキュリティ機能";
 
 /* No comment provided by engineer. */
-"Next" = "次に";
+"Next" = "次へ";
 
 /* No comment provided by engineer. */
-"No success, but \"%@\" instead." = "成功なし: \"%@\"";
+"No success, but \"%@\" instead." = "失敗: \"%@\"";
 
 /* No comment provided by engineer. */
-"No valid HTTP response." = "有効なHTTPレスポンスがありません";
+"No valid HTTP response." = "有効な HTTP レスポンスがありません。";
 
 /* No comment provided by engineer. */
-"Offline Web Application Cache" = "オフラインキャッシュ";
+"Offline Web Application Cache" = "オフラインウェブアプリケーションキャッシュ";
 
 /* AlertHelper */
 "OK" = "OK";
@@ -440,7 +440,7 @@
 "Open in Background Tab" = "バックグラウンドで開く";
 
 /* No comment provided by engineer. */
-"Open in Default Browser" = "デフォルトブラウザで開く";
+"Open in Default Browser" = "デフォルトブラウザーで開く";
 
 /* SecurityViewController */
 "Other" = "その他";
@@ -449,28 +449,28 @@
 "Password" = "パスワード";
 
 /* DonationViewController */
-"Payment Sent" = "送金しました";
+"Payment Sent" = "成功しました";
 
 /* CertificateViewController */
-"Period of Validity" = "有効期限";
+"Period of Validity" = "証明書の有効期間";
 
 /* SecurityViewController */
-"Popular User Agents" = "よく使われるユーザー・エージェント";
+"Popular User Agents" = "よく使われるユーザーエージェント";
 
 /* SecurityViewController */
 "Privacy" = "プライバシー";
 
 /* SettingsViewController */
-"Privacy & Security" = "プライバシー";
+"Privacy & Security" = "プライバシーとセキュリティ";
 
 /* Tab */
-"Pull to Refresh Page" = "引っ張ってページ更新";
+"Pull to Refresh Page" = "ページをスワイプして更新";
 
 /* DonationViewController */
-"Purchase Failure" = "支払いに失敗";
+"Purchase Failure" = "失敗しました";
 
 /* SettingsViewController */
-"Rate on App Store" = "App Storeでレビューする";
+"Rate on App Store" = "App Store で評価する";
 
 /* No comment provided by engineer. */
 "Reasons to use the built-in Tor (iOS 17 only)" = "内蔵の Tor を使う必要があるケース (iOS 17 のみ)";
@@ -479,31 +479,31 @@
 "Reload Tab" = "タブを再読み込み";
 
 /* TabSecurity */
-"Remember Tabs" = "タブの状態を保持";
+"Remember Tabs" = "タブを記憶する";
 
 /* Storage2ViewController */
-"Remove All Local Storage" = "ローカル・ストレージを削除";
+"Remove All Local Storage" = "すべてのローカルストレージを削除";
 
 /* SettingsViewController */
-"Report a Bug" = "バグを報告";
+"Report a Bug" = "バグを報告する";
 
 /* No comment provided by engineer. */
 "Request Access" = "リクエスト";
 
 /* No comment provided by engineer. */
-"Request could not be formed. Please check host and username/password!" = "ブリッジ依頼を形成できませんでした。ホスト名・ユーザー名などを確認してください。";
+"Request could not be formed. Please check host and username/password!" = "リクエストを作成できませんでした。ホストおよびユーザー名とパスワードを確認してください！";
 
 /* No comment provided by engineer. */
-"Response body missing." = "レスポンスが空です";
+"Response body missing." = "レスポンス本文がありません。";
 
 /* No comment provided by engineer. */
 "Retry" = "再試行";
 
 /* Placeholder is 'Orbot' */
-"Retry after you added the authentication key to %@." = "%@に認証鍵を追加して再接続";
+"Retry after you added the authentication key to %@." = "%@ に認証鍵を追加した後、再度お試しください。";
 
 /* RuleEditorController */
-"Rules in use on current page" = "現在のページに使用中のルール";
+"Rules in use on current page" = "現在のページで適用されているルール";
 
 /* SettingsViewController */
 "Search" = "検索";
@@ -512,16 +512,16 @@
 "Search Engine" = "検索エンジン";
 
 /* AddSearchEngineViewController */
-"Search URL" = "URLを検索";
+"Search URL" = "検索 URL";
 
 /* SecurityPopUpViewController */
 "Security Level for This Site" = "このサイトのセキュリティレベル";
 
 /* CertificateViewController */
-"Serial Number" = "シリアルナンバー";
+"Serial Number" = "シリアル番号";
 
 /* No comment provided by engineer. */
-"Service Worker Registrations" = "サービスワーカー登録";
+"Service Worker Registrations" = "Service Workers の登録";
 
 /* No comment provided by engineer. */
 "Session Storage" = "セッションストレージ";
@@ -530,10 +530,10 @@
 "Settings" = "設定";
 
 /* SecurityPresetsRow */
-"Settings have been customized." = "設定がカスタマイズされました";
+"Settings have been customized." = "設定がカスタマイズされました。";
 
 /* Storage2ViewController */
-"Show All Sites" = "すべてのサイト";
+"Show All Sites" = "すべてのサイトを表示";
 
 /* AppDelegate */
 "Show Bookmarks" = "ブックマークを表示";
@@ -548,37 +548,37 @@
 "So that you can do more with Tor on iOS! In %1$@, %2$@ improves the browsing experience with:" = "iOS で Tor をもっと活用するためです！%1$@ では、%2$@ によって以下の点でブラウジング体験が向上します:";
 
 /* DonationViewController */
-"Sorry, in-app purchase is disabled on your device!" = "アプリ内支払いが無効になっています";
+"Sorry, in-app purchase is disabled on your device!" = "申し訳ありませんが、お使いの端末ではアプリ内購入が無効になっています。";
 
 /* Placeholder is 'Orbot' */
-"Start %@" = "%@を開始";
+"Start %@" = "%@ を起動";
 
 /* No comment provided by engineer. */
-"Start built-in Tor" = "組み込みTorを開始";
+"Start built-in Tor" = "内蔵の Tor を起動";
 
 /* Placeholder is 'Orbot' */
-"Start Tor in %@." = "%@でTorを開始";
+"Start Tor in %@." = "%@ で Tor を起動。";
 
 /* No comment provided by engineer. */
-"Starting Tor…" = "Torを開始…";
+"Starting Tor…" = "Tor を起動しています…";
 
 /* SettingsViewController */
-"Stop Auto-Complete at First Dot" = "最初のドットでオートコンプリートを停止する";
+"Stop Auto-Complete at First Dot" = "最初のドットで自動補完を停止する";
 
 /* Bookmark */
-"Subscribe to Tor Newsletter" = "Torニュースレターを購読";
+"Subscribe to Tor Newsletter" = "Tor ニュースレターを購読する";
 
 /* SettingsViewController */
 "Support" = "サポート";
 
 /* DonationViewController */
-"Support Onion Browser Development" = "Onion Browserの開発を支援してください。";
+"Support Onion Browser Development" = "Onion Browser の開発をご支援ください";
 
 /* Placeholder is 'Orbot' */
-"Switch back to %@" = "%@に戻る";
+"Switch back to %@" = "%@ に戻る";
 
 /* AppDelegate */
-"Switch to Tab %d" = "タブ%dへ切り替え";
+"Switch to Tab %d" = "タブ %d を表示";
 
 /* BookmarksViewController */
 "Sync" = "同期";
@@ -596,22 +596,22 @@
 "Tabs" = "タブ";
 
 /* Option title */
-"Tell websites that you object to processing and selling of your personal data" = "あなたの個人情報を処理したり転売することに反対であることをサイトに伝える";
+"Tell websites that you object to processing and selling of your personal data" = "ウェブサイトにユーザーデータの処理や販売の拒否を通知する";
 
 /* No comment provided by engineer. */
-"The encryption method for this server is outdated." = "このサーバーの暗号方式は旧式です。";
+"The encryption method for this server is outdated." = "このサーバーの暗号化方式は時代遅れです。";
 
 /* No comment provided by engineer. */
-"Then come back for private browsing." = "プライベートブラウジングができるようになります。";
+"Then come back for private browsing." = "プライベートブラウジングを始めましょう。";
 
 /* SecurityViewController */
-"These might change server behaviour. E.g. show or not show Captchas or return pages meant for desktop browsers." = "サーバーの動作に影響をもたらす可能性があります。例えば、キャプチャを表示したりしなかったり、およびデスクトップブラウザ用のページを表示したりするかもしれない。";
+"These might change server behaviour. E.g. show or not show Captchas or return pages meant for desktop browsers." = "これらの設定はサーバーの動作に影響する可能性があります。(例: Captcha を表示するかしないか、デスクトップブラウザー向けのページを表示するかどうかなど)";
 
 /* CircuitsViewController */
-"This browser" = "このブラウザ";
+"This browser" = "このブラウザー";
 
 /* SecurityViewController, placeholder is app name "Onion Browser" */
-"This is your default security setting for every website you visit in %@." = "以下は %@ のセキュリティの初期設定です。";
+"This is your default security setting for every website you visit in %@." = "これは、%@ でアクセスするすべてのウェブサイトのデフォルトのセキュリティ設定です。";
 
 /* Placeholder is 'Orbot' */
 "This site may need authentication. If you received an authentication key for this site, add it to %@!" = "このサイトは認証が必要かもしれません。このサイトの認証鍵を入手したら、%@ に追加してください。";
@@ -626,10 +626,10 @@
 "Title" = "タイトル";
 
 /* Tab+UIWebViewDelegate */
-"TLS certificate chain verification error (self-signed certificate?)" = "TLS認証でエラー（自己署名の証明書？）";
+"TLS certificate chain verification error (self-signed certificate?)" = "TLS 証明書チェーンの検証エラー (自己署名証明書？)";
 
 /* Tab+UIWebViewDelegate */
-"TLS handshake failed" = "TLSハンドシェイクに失敗しました";
+"TLS handshake failed" = "TLS ハンドシェイクに失敗しました";
 
 /* Tab+UIWebViewDelegate */
 "TLS protocol error" = "TLS プロトコルエラー";
@@ -638,19 +638,19 @@
 "Tor Circuit" = "Tor 回線";
 
 /* SyncViewController */
-"Try Again" = "再試行する";
+"Try Again" = "再試行";
 
 /* SecurityViewController */
 "Universal Link Protection" = "ユニバーサルリンク保護";
 
 /* AddSearchEngineViewController */
-"Update" = "アップデート";
+"Update" = "更新";
 
 /* No comment provided by engineer. */
-"Update Blocklist" = "Update Blocklist";
+"Update Blocklist" = "ブロックリストの更新";
 
 /* SettingsViewController */
-"URL Blocker" = "URLブロッカー";
+"URL Blocker" = "URL ブロッカー";
 
 /* Placeholder is 'Orbot' */
 "Use %@" = "%@ を使う";
@@ -659,13 +659,13 @@
 "Use built-in Tor" = "内蔵の Tor を使う";
 
 /* No comment provided by engineer. */
-"Use URL Blocker" = "Use URL Blocker";
+"Use URL Blocker" = "URL ブロッカーを使う";
 
 /* SecurityViewController */
 "User Agent" = "ユーザーエージェント";
 
 /* RuleEditorController */
-"User disabled" = "ユーザーは無効です";
+"User disabled" = "ユーザーによって無効化されました";
 
 /* AppDelegate, SyncViewController */
 "Username" = "ユーザー名";
@@ -683,13 +683,13 @@
 "Websites may break. But you get great security." = "一部のサイトが正常に機能しなくなる代わりに、攻撃面を最小限に抑えます。";
 
 /* No comment provided by engineer. */
-"WebSQL Databases" = "WebSQLデータベース";
+"WebSQL Databases" = "WebSQL データベース";
 
 /* Placeholder is 'Onion Browser' */
-"Welcome to %@" = "%@にようこそ";
+"Welcome to %@" = "%@ へようこそ";
 
 /* SettingsViewController */
-"When disabled, all text entered in search bar will be sent to the search engine unless it starts with \"http\"." = "無効にすると、\"http\"で始まらない限り、検索バーに入力されたテキストがすべて検索エンジンに送信されます";
+"When disabled, all text entered in search bar will be sent to the search engine unless it starts with \"http\"." = "無効にすると、検索バーに入力されたテキストは「http」で始まらない限り、すべて検索エンジンに送信されます。";
 
 /* No comment provided by engineer. */
 "Why" = "理由";
@@ -701,13 +701,13 @@
 "Works pretty well. Your identity is mostly protected." = "多くの場合機能し、強力な保護が提供されます。";
 
 /* Placeholder is server domain */
-"You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "あなたが接続しているサーバーは\"%@\"を装っているだけかもしれません。機微に触れる情報にはリスクがあります。";
+"You might be connecting to a server that is pretending to be \"%@\" which could put your confidential information at risk." = "%@ になりすましたサーバーに接続しようとしている可能性があり、ユーザーの情報が危険にさらされる恐れがあります。";
 
 /* DonationViewController */
 "You most recently donated %1$@ on %2$@." = "前回は %1$@ を %2$@ に寄付しています。";
 
 /* No comment provided by engineer. */
-"You're one step closer to private browsing." = "プライベートブラウジングまであと一歩";
+"You're one step closer to private browsing." = "プライベートブラウジングはすぐそこです。";
 
 /* CircuitViewController */
-"Your traffic goes to 3 different parts of the world." = "あなたの通信は、世界の３つの異なる地域をたどります。";
+"Your traffic goes to 3 different parts of the world." = "あなたのトラフィックは、世界中にある 3 つの異なるサーバーを経由します。";
