@@ -142,12 +142,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		// when the user comes back.
 		// In that case, we need to make sure, the tabs are gone when
 		// the scene is becoming active again.
-		if Settings.tabSecurity == .clearOnBackground {
-			browsingUi.removeAllTabs()
-		}
+		// if Settings.tabSecurity == .clearOnBackground {
+			//browsingUi.removeAllTabs()
+	//	}
 
-		if Settings.hideContent {
-			BlurredSnapshot.create(window)
+		//if Settings.hideContent {
+		//	BlurredSnapshot.create(window)
 		}
 
 		// Prepare to stop Tor properly, in case we get shut down.
