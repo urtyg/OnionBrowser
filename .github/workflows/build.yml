@@ -1,0 +1,43 @@
+name: Build IPA
+
+on:
+  push:
+    branches: [ "3.X" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+
+    - name: Select Xcode Version
+      run: sudo xcode-select -switch /Applications/Xcode_15.4.app
+
+    - name: Build App
+      run: |
+        xcodebuild archive \
+          -workspace OnionBrowser.xcworkspace \
+          -scheme OnionBrowser \
+          -configuration Release \
+          -sdk iphoneos \
+          -archivePath build/OnionBrowser.xcarchive \
+          CODE_SIGNING_ALLOWED=NO \
+          CODE_SIGNING_REQUIRED=NO
+
+    - name: Package IPA
+      run: |
+        mkdir -p build/Payload
+        cp -R build/OnionBrowser.xcarchive/Products/Applications/OnionBrowser.app build/Payload/
+        cd build
+        zip -r OnionBrowser.ipa Payload
+
+    - name: Upload IPA Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: OnionBrowser-Unsigned
+        path: build/OnionBrowser.ipa
